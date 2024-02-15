@@ -1,4 +1,4 @@
-# RGB Kontrol Web Sunucusu
+# RGB LED Kontrol Web Sunucusu
 
 Bu proje, ESP32 mikrodenetleyici kullanarak bir RGB LED'in renklerini bir web tarayıcı üzerinden kontrol etmek için basit bir örnektir.
 
