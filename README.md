@@ -1,24 +1,24 @@
-# RGB LED Kontrol Web Sunucusu
+# RGB LED Control Web Server
 
-Bu proje, ESP32 mikrodenetleyici kullanarak bir RGB LED'in renklerini bir web tarayıcı üzerinden kontrol etmek için basit bir örnektir.
+This project is a simple example of controlling the colors of an RGB LED via a web browser using an ESP32 microcontroller.
 
-## Bağlantılar
-- Kırmızı LED Pin: GPIO 23
-- Yeşil LED Pin: GPIO 22
-- Mavi LED Pin: GPIO 21
+## Connections
+- Red LED Pin: GPIO 23
+- Green LED Pin: GPIO 22
+- Blue LED Pin: GPIO 21
 
-## Kurulum
-1. Arduino IDE'yi açın.
-2. Gerekli kütüphaneleri yükleyin (WiFi, WebServer).
-3. WiFi bağlantı bilgilerinizi `ssid` ve `password` değişkenlerine ekleyin.
-4. Kodu ESP32 kartınıza yükleyin.
+## Setup
+1. Open Arduino IDE.
+2. Install the required libraries (WiFi, WebServer).
+3. Add your WiFi connection details to the `ssid` and `password` variables.
+4. Upload the code to your ESP32 board.
 
-## Kullanım
-1. ESP32'yi güç kaynağına bağlayın ve WiFi ağına bağlanmasını bekleyin.
-2. ESP32'nin IP adresini seri monitörden kontrol edin.
-3. Tarayıcınızı açın ve ESP32'nin IP adresini ziyaret edin (örneğin, `http://192.168.1.100`).
-4. Renk paleti üzerinden RGB LED'in renklerini kontrol edin.
+## Usage
+1. Connect the ESP32 to a power source and wait for it to connect to the WiFi network.
+2. Check the ESP32's IP address from the serial monitor.
+3. Open your web browser and visit the ESP32's IP address (e.g., `http://192.168.1.100`).
+4. Control the colors of the RGB LED using the color palette.
 
-## Notlar
-- Renkleri kontrol etmek için web tarayıcısı üzerinden paleti kullanın.
-- Konsol çıktısı üzerinden RGB değerlerini takip edin.
+## Notes
+- Use the color palette on the web browser to control the colors.
+- Monitor the RGB values via the console output.
